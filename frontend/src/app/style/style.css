@@ -1,0 +1,78 @@
+
+.Main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1e8bff;
+  color: #fff;
+  border: cadetblue;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  /* background-color: #0056b3; */
+  background-color: #00b333;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th {
+  border: 1px solid #c0c0c0;
+  padding: 8px;
+  text-align: center;
+  background-color: #f2f2f2;
+  font-size: 12px;
+}
+
+.table td {
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+  text-align: left;
+  background-color: #f2f2f2;
+  font-size: 10px;
+}
+.Action {
+  padding: 2px 4px;
+  width: 60px;
+  margin-top: 5px;
+  color: #040fa8;
+  background-color: #9fc2fe;
+
+}
